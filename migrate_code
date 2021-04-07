@@ -1,0 +1,4 @@
+git clone --mirror  old.git
+cd old.git
+git remote set-url --push origin new.git
+git push --mirror new.git
